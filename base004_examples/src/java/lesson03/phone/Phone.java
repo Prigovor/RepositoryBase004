@@ -16,7 +16,7 @@ public class Phone {
         this.phone = phone;
         this.os = os;
         this.simCard = simCard;
-        contacts = new ArrayList<>();
+        contacts = new ArrayList<Contact>();
     }
 
     public Phone(String phone, SimCard simCard) {
